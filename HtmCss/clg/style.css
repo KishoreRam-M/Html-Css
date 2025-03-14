@@ -1,0 +1,27 @@
+body{
+    margin:0;
+}
+#div {
+    background-color: rgb(224, 154, 23);
+    border: 0;
+    height: 70px;
+    
+}
+
+#naav {
+    display: flex;
+    justify-content:center; 
+   
+}
+
+h3 {
+    
+}
+
+h3  {
+   
+    color: black; 
+    font-weight: bold;
+    margin-left: 15px;
+
+}

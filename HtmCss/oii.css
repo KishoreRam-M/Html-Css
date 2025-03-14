@@ -1,0 +1,16 @@
+li{
+    display: inline;
+    border:solid black;
+    border-radius: 80px 50px;
+    ;
+}
+#signup{
+    padding: 1000px;
+}
+#login{
+    padding: 1000px;
+}
+#GetStarted
+{
+    padding: 1000px;
+}

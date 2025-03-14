@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      table
+      {
+        margin-left: auto;
+        
+        margin-right: auto;
+        border-spacing: 100px;
+
+   
+      }
+      
+      th
+      {
+    padding:10px ;
+      }
+
+      td
+      {
+        padding: 5px;
+      }
+      tr:nth-child(even)
+      {
+        color:slategrey;
+      }
+body{
+    margin-top: 100px;
+}
+
+    </style>
+</head>
+<body>
+    <table border="1" >
+        <thead>
+            <tr>
+                <th colspan="3">CSE Department</th> <!-- "CSE Department" spans 3 columns -->
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>ID</th>
+                <th>College</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Kishore</td> <!-- Kishore spans 2 rows -->
+                <td>16066</td>
+                <td>VTMT</td>
+            </tr>
+            <tr>
+                <td>16006</td>
+                <td>VTHT</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

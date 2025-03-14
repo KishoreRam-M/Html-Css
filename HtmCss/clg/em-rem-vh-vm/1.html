@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Units Example</title>
+  <style>
+    html {
+      font-size: 16px;
+    }
+
+    .container {
+      font-size: 16px;
+      margin: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .text-em {
+      font-size: 2em;
+      background-color: lightgreen;
+      padding: 10px;
+      margin: 10px 0;
+    }
+
+    .text-rem {
+      font-size: 2rem;
+      background-color: lightcoral;
+      padding: 10px;
+      margin: 10px 0;
+    }
+
+    .fullscreen {
+      height: 100vh;
+      background-color: lightblue;
+      padding: 20px;
+      color: white;
+    }
+
+    .element-vw-vh {
+      width: 50vw;
+      height: 50vh;
+      background-color: lightseagreen;
+      margin: 10px 0;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .element-vm {
+      width: 30vw;
+      height: 30vh;
+      background-color: lightgoldenrodyellow;
+      margin: 10px 0;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p class="text-em">This text is 2em (32px) relative to the parent container's font size.</p>
+    <p class="text-rem">This text is 2rem (32px) relative to the root element's font size.</p>
+  </div>
+  <div class="fullscreen">
+    <p>This div takes up 100% of the viewport height (100vh).</p>
+  </div>
+  <div class="element-vw-vh">
+    <p>This element is 50% of the viewport width (50vw) and 50% of the viewport height (50vh).</p>
+  </div>
+  <div class="element-vm">
+    <p>This element is 30% of the viewport width (30vw) and 30% of the viewport height (30vh), mimicking vm.</p>
+  </div>
+</body>
+</html>

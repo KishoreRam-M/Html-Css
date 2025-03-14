@@ -1,0 +1,26 @@
+header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bolder;
+}
+li{
+    display: inline-block;
+    padding: 70px;
+    border-radius: 20px;
+    border: solid;
+}
+ body{
+    background-color: darkblue;
+    color: red;
+    text-align: center;
+ }
+ #intro h2
+ {
+   text-align: justify;
+ }
+ #intro p{
+    text-align: justify;
+
+ }
+ 

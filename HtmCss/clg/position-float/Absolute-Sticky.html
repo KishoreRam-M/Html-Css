@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute and Sticky Position Example</title>
+    <style>
+        /* Set the body to have some padding for better view */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 2000px; /* This is to allow scrolling */
+        }
+
+        /* Container to show the effects of absolute and sticky positioning */
+        .container {
+            position: relative;
+            margin-top: 50px; /* Some margin to avoid overlap */
+            height: 500px;
+            background-color: #f0f0f0;
+            border: 2px solid #ccc;
+        }
+
+        /* Absolute positioning example */
+        .absolute-box {
+            position: absolute;
+            top: 30px;
+            right: 20px;
+            width: 150px;
+            height: 100px;
+            background-color: lightblue;
+            text-align: center;
+            padding-top: 35px;
+            border: 1px solid #000;
+        }
+
+        /* Sticky positioning example */
+        .sticky-box {
+            position: sticky;
+            top: 20px; /* Distance from the top when it sticks */
+            background-color: lightcoral;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            border: 1px solid #000;
+        }
+
+        /* Content section below the container */
+        .content {
+            margin-top: 600px;
+            font-size: 18px;
+            line-height: 1.5;
+            padding: 20px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="sticky-box">
+            I am a sticky element! I will stick to the top of the screen when you scroll down.
+        </div>
+        <div class="absolute-box">
+            I am absolutely positioned! I will stay at a fixed position inside the container.
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>Scroll down to see the sticky effect!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum ultricies dui, non aliquam felis hendrerit eu. Donec condimentum diam a turpis tincidunt tincidunt. Ut ullamcorper varius tempor. Sed sit amet risus tincidunt, consequat turpis vitae, finibus enim. Integer sit amet ex auctor, aliquet magna id, interdum purus.</p>
+        <p>Phasellus sollicitudin tincidunt mauris, vel rutrum neque maximus vel. Aenean suscipit vitae orci nec tempor. Duis euismod orci dui, vel iaculis arcu fringilla vel. Curabitur mollis et orci eget ullamcorper.</p>
+        <p>Phasellus sollicitudin tincidunt mauris, vel rutrum neque maximus vel. Aenean suscipit vitae orci nec tempor. Duis euismod orci dui, vel iaculis arcu fringilla vel. Curabitur mollis et orci eget ullamcorper.</p>
+    </div>
+
+</body>
+</html>
