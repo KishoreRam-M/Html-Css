@@ -1,0 +1,147 @@
+body
+{
+    margin: 0rem;
+    padding: 0rem;
+    background-image: url('batman.jpg');
+    background-size: cover ;
+    background-position: center;
+    color: aliceblue;
+    
+   
+}
+#netflix
+{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: inherit;
+    
+}
+.layout
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    
+
+    
+    
+}
+#signup
+{
+    position: relative;
+    right: 12rem;
+
+}
+#email
+{
+margin-bottom: 1rem;
+
+
+}
+
+#email input
+{
+    width: 20rem;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+#password input
+{
+
+    width: 20rem;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+#password
+{
+    margin-bottom: 1rem;
+ 
+}
+
+#signButton button
+{
+   background-color: red;
+    color: aliceblue;
+    width: 20rem;
+    height: 3rem;
+
+
+}
+
+#or
+{
+    color: grey;
+}
+
+
+
+#code button
+{
+  
+      
+    background-color: hsla(0, 0%, 100%, 0.5); /
+    
+    width: 20rem;
+    height: 3rem;
+    color: aliceblue;
+}
+
+#forget a
+{
+   
+    color: aliceblue;
+}
+
+
+#n a
+{
+    margin-top: 1rem;
+    color: aliceblue;
+    position: relative;
+    right: 10rem;
+    text-decoration: none;
+    opacity: 0.7;
+}
+    
+  
+
+
+#forget
+{
+    margin-top: 1rem;
+}
+
+#n
+{
+    margin-top: 1rem;
+    
+   
+}
+#me{
+    margin-top: 1rem;
+    position: relative;
+    right: 10rem;
+}
+
+#now
+{
+
+    position: relative;
+    bottom:  2.5rem;
+    right: 3.5em;
+}
+
+
+#me input{
+
+    position: relative;
+    right: 10rem;
+
+}
+    
