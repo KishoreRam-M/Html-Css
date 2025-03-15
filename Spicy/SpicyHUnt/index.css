@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: black;
+    font-weight: bolder;
+}
+
+.landing {
+    background-image: url('pexels.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    color: #8D8D8D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #C7A938;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bolder;
+    transition: all 0.3s ease-in-out;
+    font-size: xx-large;
+}
+
+header a:hover {
+    color: #C7A938;
+    text-shadow: 0px 0px 8px #C7A938;
+}
+
+h1, h2, h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+    color: #E5E5E5;
+}
+
+.logo {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    transform: translate(0, -50%);
+    
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(0, -50%);
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.tagline1 {
+    word-spacing: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #C7A938;
+    transition: all 0.4s ease-in-out;
+}
+
+.tagline2 {
+    word-spacing: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #8D8D8D;
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    top: 8px;
+
+    
+}
+
+.callus {
+    color: rgb(109, 110, 110);
+    margin-top: 10px;
+    padding-top: 10px;
+    word-spacing: 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+.tagline1:hover {
+    font-size: 32px;
+    text-shadow: 0px 0px 10px #C7A938;
+}
+
+.tagline2:hover {
+    font-size: 30px;
+    text-shadow: 0px 0px 10px #8D8D8D;
+}
+
+.callus:hover {
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 12px #C7A938;
+}
+
+button {
+    background-color: #C7A938;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #C7A938;
+    position: relative;
+    top: 120px;
+    right: 520px;
+}
+
+button:hover {
+    background-color: #8D8D8D;
+    color: black;
+    box-shadow: 0 0 20px #C7A938, 0 0 40px #C7A938;
+    transform: scale(1.05);
+}
+
+.menu{
+    position: relative;
+    bottom: 310px;
+}
+.location{
+    position: relative;
+    bottom: 380px;
+    left: 600px;
+    
+}
+
